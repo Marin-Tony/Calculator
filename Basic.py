@@ -46,7 +46,6 @@ def rem(num1, num2):
     num3 = num1 % num2
     return num3
 
-#def adv():
 
 
 rept = 'y'
@@ -57,8 +56,6 @@ while rept == 'y':
     print("The result is ", res)
     rept = input("If you want to do more calculations, type \'y\' else press ENTER KEY")
 else:
-    #adv()
-    #print()
     cal_type = input("\nIf you want to do advanced calculations please type \'ADVANCED\' \n else press enter")
     if cal_type == "advanced":
         import advncd
